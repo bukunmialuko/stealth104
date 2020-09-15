@@ -11,10 +11,10 @@
     <title>Hello world - Input Form</title>
 </head>
 <body>
-<form action="processForm" method="GET">
-    Hello User
-    <br/>
-    Student Name: ${param.studentName}
-</form>
+Hello User
+<br/>
+Student Name: ${param.studentName}
+<br/>
+The message: ${message}
 </body>
 </html>

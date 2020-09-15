@@ -14,6 +14,7 @@ public class Student {
         countryOptions.put("FR", "France");
         countryOptions.put("GE", "Germany");
         countryOptions.put("IN", "India");
+        countryOptions.put("NG", "Nigeria");
     }
 
     public String getFirstName() {

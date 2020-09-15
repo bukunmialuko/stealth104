@@ -7,12 +7,12 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-  <a href="showForm">Show Student Form</a>
-
-  <a href="student/showForm">Show Student Form</a>
-  </body>
+<head>
+  <title>Title</title>
+</head>
+<body>
+<a href="showForm">Student Name Form</a>
+<br/>
+<a href="student/showForm">Show Student Form</a>
+</body>
 </html>

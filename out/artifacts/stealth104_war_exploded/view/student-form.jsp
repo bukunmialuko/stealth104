@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
   User: USLUSER
@@ -8,12 +9,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Hello world - Input Form</title>
+    <title>Student Registration Form</title>
 </head>
 <body>
-<form action="processFormV3" method="GET">
-    <input type="text" name="studentName" placeholder="Enter student Name">
-    <input type="submit">
-</form>
+
+<form:form action="processForm" modelAttribute="student">
+    First name: <form:input path="firstName"/>
+    <br/>
+    Last name: <form:input path="lastName"/>
+    <br/>
+    <input type="submit" value="Submit"/>
+</form:form>
+
 </body>
 </html>

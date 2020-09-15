@@ -8,9 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Hello world - Input Form</title>
 </head>
 <body>
-<h2>Hello World</h2>
+<form action="processForm" method="GET">
+    Hello User
+    <br/>
+    Student Name: ${param.studentName}
+</form>
 </body>
 </html>

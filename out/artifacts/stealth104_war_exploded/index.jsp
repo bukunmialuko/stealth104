@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  <a href="showForm">Show Student Form</a>
+  <a href="hello/showForm">Show Student Form</a>
   </body>
 </html>

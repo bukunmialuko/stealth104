@@ -14,5 +14,7 @@
 <h2>The student is confirmed: ${student.firstName} ${student.lastName}</h2>
 <br/>
 Country: ${student.country}
+<br/>
+Favorite Language: ${student.favoriteLanguage}
 </body>
 </html>

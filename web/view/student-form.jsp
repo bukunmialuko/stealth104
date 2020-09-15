@@ -23,6 +23,12 @@
         <form:options items="${student.countryOptions}"/>
     </form:select>
     <br/>
+    Favorite Language
+    Java<form:radiobutton path="favoriteLanguage" value="Java"/>
+    C#<form:radiobutton path="favoriteLanguage" value="C#"/>
+    JavaScript<form:radiobutton path="favoriteLanguage" value="JavaScript"/>
+    Dart<form:radiobutton path="favoriteLanguage" value="Dart"/>
+    <br/>
     <input type="submit" value="Submit"/>
 </form:form>
 

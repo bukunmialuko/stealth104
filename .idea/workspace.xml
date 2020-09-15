@@ -18,6 +18,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -33,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -40,8 +42,15 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\USLUSER\Spring\IdeaProject\stealth104\web" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\USLUSER\Spring\IdeaProject\stealth104\web" />
+      <recent name="D:\USLUSER\Spring\IdeaProject\stealth104\web\WEB-INF\view" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -140,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600157581701</updated>
-      <workItem from="1600157585630" duration="389000" />
+      <workItem from="1600157585630" duration="1737000" />
     </task>
     <servers />
   </component>

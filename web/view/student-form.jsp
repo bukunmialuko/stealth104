@@ -29,6 +29,13 @@
     JavaScript<form:radiobutton path="favoriteLanguage" value="JavaScript"/>
     Dart<form:radiobutton path="favoriteLanguage" value="Dart"/>
     <br/>
+
+    Operating Systems
+    <br/>
+    Linux <form:checkbox path="operatingSystems" value="Linux"/>
+    Microsoft <form:checkbox path="operatingSystems" value="Microsoft"/>
+    Mac <form:checkbox path="operatingSystems" value="Mac"/>
+    <br/>
     <input type="submit" value="Submit"/>
 </form:form>
 

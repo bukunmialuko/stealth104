@@ -1,8 +1,6 @@
 package com.example.stealth104;
 
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 
 public class Customer {
 
@@ -11,8 +9,20 @@ public class Customer {
 
     @NotBlank
     @NotNull(message = "is required")
-    @Size(min = 2)
+    @Size(min = 1,message = "is required")
     private String lastName;
+
+    @Min(value = 0, message = "must be greater or equal to zero")
+    @Max(value = 10, message = "must be less than or equal to ten")
+    private int freePasses;
+
+    public int getFreePasses() {
+        return freePasses;
+    }
+
+    public void setFreePasses(int freePasses) {
+        this.freePasses = freePasses;
+    }
 
     public String getFirstName() {
         return firstName;

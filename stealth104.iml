@@ -25,5 +25,6 @@
     <orderEntry type="library" name="Spring-5.2.3.RELEASE" level="project" />
     <orderEntry type="library" name="Spring MVC-5.2.3.RELEASE" level="project" />
     <orderEntry type="library" name="jboss-logging-3.3.2.Final" level="project" />
+    <orderEntry type="library" name="hibernate-validator-6.1.5.Final" level="project" />
   </component>
 </module>

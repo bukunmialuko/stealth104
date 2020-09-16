@@ -25,7 +25,7 @@ Operating Systems
     <c:forEach var="temp" items="${student.operatingSystems}">
         <li>${temp}</li>
     </c:forEach>
-   
+
 </ul>
 </body>
 </html>

@@ -31,6 +31,7 @@
     <br/>
 
     Operating Systems
+    <br/>
     Linux <form:checkbox path="operatingSystems" value="Linux"/>
     Microsoft <form:checkbox path="operatingSystems" value="Microsoft"/>
     Mac <form:checkbox path="operatingSystems" value="Mac"/>

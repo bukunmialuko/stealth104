@@ -3,12 +3,13 @@ package com.example.stealth104;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+
 public class Customer {
 
     private String firstName;
 
-    @NotNull(message = "is required")
-    @Size(min = 2, max = 100)
+//    @NotNull(message = "is required")
+//    @Size(min = 2, max = 100)
     private String lastName;
 
     public String getFirstName() {

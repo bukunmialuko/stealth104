@@ -25,6 +25,7 @@
       <root url="jar://$PROJECT_DIR$/lib/hibernate-validator-6.1.5.Final.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/hibernate-validator-annotation-processor-6.1.5.Final.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/hibernate-validator-cdi-6.1.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.validation-api-2.0.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -1,4 +1,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: USLUSER
@@ -25,9 +26,11 @@ Fill out the form. Asterisk (*) means required
     Last Name (*): <form:input path="lastName"/>
     <form:errors path="lastName" cssClass="error"/>
     <br/>
+
     <input type="submit" value="Submit"/>
 
 </form:form>
+
 
 </body>
 </html>

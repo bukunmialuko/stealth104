@@ -1,5 +1,6 @@
 package com.example.stealth104;
 
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
@@ -8,8 +9,9 @@ public class Customer {
 
     private String firstName;
 
-//    @NotNull(message = "is required")
-//    @Size(min = 2, max = 100)
+    @NotBlank
+    @NotNull
+    @Size(min = 2)
     private String lastName;
 
     public String getFirstName() {

@@ -4,13 +4,13 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-
 public class Customer {
 
+    @NotNull(message = "is required")
     private String firstName;
 
     @NotBlank
-    @NotNull
+    @NotNull(message = "is required")
     @Size(min = 2)
     private String lastName;
 

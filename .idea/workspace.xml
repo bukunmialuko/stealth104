@@ -34,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/hibernate-validator-cdi-6.1.5.Final.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/example/stealth104/res" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -42,16 +42,19 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\USLUSER\Spring\IdeaProject\stealth104\web\view" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\USLUSER\Spring\IdeaProject\stealth104\web" />
+      <recent name="D:\USLUSER\Spring\IdeaProject\stealth104\web\WEB-INF\view" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\USLUSER\Spring\IdeaProject\stealth104\src\com\example\stealth104\res" />
+      <recent name="D:\USLUSER\Spring\IdeaProject\stealth104\src" />
       <recent name="D:\USLUSER\Spring\IdeaProject\stealth104\web" />
-      <recent name="D:\USLUSER\Spring\IdeaProject\stealth104\web\WEB-INF\view" />
+      <recent name="D:\USLUSER\Spring\IdeaProject\stealth104\src\resources" />
+      <recent name="D:\USLUSER\Spring\IdeaProject\stealth104\web\view" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -153,7 +156,7 @@
       <workItem from="1600157585630" duration="5830000" />
       <workItem from="1600193533846" duration="15119000" />
       <workItem from="1600298336307" duration="981000" />
-      <workItem from="1600301211054" duration="875000" />
+      <workItem from="1600301211054" duration="2213000" />
     </task>
     <servers />
   </component>

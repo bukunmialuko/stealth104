@@ -1,5 +1,7 @@
 package com.example.stealth104;
 
+import com.example.stealth104.validation.CourseCode;
+
 import javax.validation.constraints.*;
 
 public class Customer {
@@ -21,21 +23,8 @@ public class Customer {
     @Pattern(regexp = "^[a-zA-Z0-9]{6}", message = "only 5 chars/digits")
     private String postalCode;
 
-    public String getPostalCode() {
-        return postalCode;
-    }
-
-    public void setPostalCode(String postalCode) {
-        this.postalCode = postalCode;
-    }
-
-    public Integer getFreePasses() {
-        return freePasses;
-    }
-
-    public void setFreePasses(Integer freePasses) {
-        this.freePasses = freePasses;
-    }
+    @CourseCode(value="TOPS", message="must start with TOPS")
+    private String courseCode;
 
     public String getFirstName() {
         return firstName;
@@ -51,5 +40,29 @@ public class Customer {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public Integer getFreePasses() {
+        return freePasses;
+    }
+
+    public void setFreePasses(Integer freePasses) {
+        this.freePasses = freePasses;
+    }
+
+    public String getPostalCode() {
+        return postalCode;
+    }
+
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
+    }
+
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
     }
 }
